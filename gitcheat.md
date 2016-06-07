@@ -5,10 +5,11 @@
 
 #markdowns:
 hashtag means header  
-** means bold  
+** surrounding text means **bold**  
+* surrounding text means *italics*
 check: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
 
-#How to add/commit/push  
+**How to add/commit/push**  
 you need to add and commit changes to a file on your computer (local git) then push it onto github
 
 start by checking git status:  
@@ -33,7 +34,5 @@ nothing added to commit but untracked files present (use "git add" to track)'
 later pushes: *git push*
 
 1. If I add more changes to the file that has been committed, I must re-add then re-commit the file and push again. Once that is done, I will have a list of commits on git hub matching with the file. Can check the status of the file with *git status*  
-
-If I want to commit and add at the same time: 
-*git commit -am "message"*
+If I want to commit and add at the same time: *git commit -am "message"*
 
