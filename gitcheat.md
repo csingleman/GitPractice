@@ -13,6 +13,7 @@ https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
 
 you need to add and commit changes to a file on your computer (local git) then push it onto github
 
+start by checking git status: 
 Corinnas-MacBook-Air:GitPractice corinnasingleman$ git status
 On branch master
 
@@ -25,8 +26,15 @@ Untracked files:
 
 nothing added to commit but untracked files present (use "git add" to track)
 
-this tells us that there is a file that has not been added to git yet. So we add the file: git add filename 
-then we commit it to github: git commit -m "message about the commits" or without comments: git commit
-Push file to get it onyl github
 
-if I add more changes to the file that has been committed, I must then recommit the file and push again. Once that is done, I will have a list of commits on git hub matching with the file. Can check the status of the file with git status
+this tells us that there is a file that has not been added to git yet. So we add the file: git add filename 
+
+then we commit it to github: git commit -m "message about the commits"
+
+Push file to get it on github for the first time: git push -u origin master
+later pushes: git push
+
+if I add more changes to the file that has been committed, I must readd then recommit the file and push again. Once that is done, I will have a list of commits on git hub matching with the file. Can check the status of the file with git status
+
+if you want to commit adn add at the same time: git commit -am "message"
+
