@@ -2,20 +2,18 @@
 **Name:** Corinna Singleman
 **Date:** June 7,2016
 
-used git config --global user.name "csingleman"
-git config --global user.email "csingleman@gmail.com"
-git config --global core.editor "subl -n -w" = this made sublime as the main editor
 
-markdowns:
-# means header
-** means bold
-https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet
+#markdowns:
+hashtag means header  
+** means bold  
+check: https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet  
 
+#How to add/commit/push  
 you need to add and commit changes to a file on your computer (local git) then push it onto github
 
-start by checking git status: 
-Corinnas-MacBook-Air:GitPractice corinnasingleman$ git status
-On branch master
+start by checking git status:  
+Corinnas-MacBook-Air:GitPractice corinnasingleman$ *git status*
+'On branch master  
 
 Initial commit
 
@@ -24,17 +22,18 @@ Untracked files:
 
 	gitcheat.md
 
-nothing added to commit but untracked files present (use "git add" to track)
+nothing added to commit but untracked files present (use "git add" to track)'
 
 
-this tells us that there is a file that has not been added to git yet. So we add the file: git add filename 
+1. This tells us that there is a file that has not been added to git yet. So we add the file: *git add filename* 
 
-then we commit it to github: git commit -m "message about the commits"
+2. then we commit it to github: *git commit -m "message about the commits"*
 
-Push file to get it on github for the first time: git push -u origin master
-later pushes: git push
+3. Push file to get it on github for the first time: *git push -u origin master*  
+later pushes: *git push*
 
-if I add more changes to the file that has been committed, I must readd then recommit the file and push again. Once that is done, I will have a list of commits on git hub matching with the file. Can check the status of the file with git status
+1. If I add more changes to the file that has been committed, I must re-add then re-commit the file and push again. Once that is done, I will have a list of commits on git hub matching with the file. Can check the status of the file with *git status*  
 
-if you want to commit adn add at the same time: git commit -am "message"
+If I want to commit and add at the same time: 
+*git commit -am "message"*
 
